@@ -1,0 +1,77 @@
+/* BODY */
+body{
+    font-family: "Lucida Console", "Monaco";
+    background-color: #f5f5dc;
+}
+
+/*title*/
+#title{
+    text-align: center;
+    padding-top: 20px;
+}
+#description{
+    text-align: center;
+    padding-top: 8px;
+}
+
+/* MAIN */
+
+/*FORM*/
+#survey-form{
+    margin: auto;
+    background-color: #DCDCF5;
+    border-radius: 2px;
+}
+#name-label{
+    display: block;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: large;
+}
+#name,#email,#number,#dropdown,span,#textarea{
+    margin-top: 8px;
+    display: block;
+    margin-left: 40px;
+    width: 80%;
+}
+
+input[type=text],input[type=email],input[type=number],select {
+    border: 3px solid #fff;
+    border-radius: 2px;
+    outline: none;
+    height: 25px;
+  }
+  select{
+    height:40px;
+  }
+
+#email-label,#number-label,#dropdown-label,#check-label,#list,#comment-label{
+    display: block;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: large;
+}
+
+#check1,#check2,#check3,#front,#back,#data{
+    display: block;
+    margin-right: 8px;
+}
+
+span{
+    display: flex;
+}
+#submit{
+    background-color:#6d6d94;
+    margin-top: 8px;
+    margin-bottom: 38px;   
+    display: block;
+    margin-left: 40px;
+    width: 80.5%;
+    height: 30px;
+    border: none;
+}
+#submit:hover{
+    background-color:#12128f;
+}
+
+

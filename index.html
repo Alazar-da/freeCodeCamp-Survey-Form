@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="#" method="post" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" required placeholder="Enter your Name">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" required placeholder="Enter your Email">
+        <label for="number" id="number-label">Age(optional)</label>
+        <input type="number" name="number" id="number" placeholder="Age" min="18" max="59">
+
+        <label for="name" id="dropdown-label">Which option best describes your current role?</label>
+    
+        <select name="dropdown" id="dropdown">
+            <option value="" disabled selected>Select your Role</option>
+            <option value="Student">Student</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="other">other</option>
+        </select>
+
+        <label for="name" id="check-label">Would you recommend freeCodeCamp to a friend?</label>
+        <span><input type="radio" name="check" id="check1" value="Definitely"> Definitely</span>
+        <span><input type="radio" name="check" id="check2" value="Maybe">Maybe</span>
+        <span><input type="radio" name="check" id="check3" value="Not sure">Not sure</span>
+
+
+        <label for="name" id="list">What would you like to see improved?(Check all that apply)</label>
+        <span><input type="checkbox" name="front" id="front" value="Front-end Projects">Front-end Projects</span>
+        <span><input type="checkbox" name="back" id="back" value="Back-end Projects">Back-end Projects</span>
+        <span><input type="checkbox" name="data" id="data" value="Data Visualization">Data Visualization</span>
+        
+        <label for="" id="comment-label">Any comments or suggestions?</label>
+        <textarea name="textarea" id="textarea" cols="70" rows="10" placeholder="Enter your comments..."></textarea>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>
